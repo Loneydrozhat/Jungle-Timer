@@ -24,17 +24,17 @@ not cater to everybody's needs.
 
 2. Optional: Synchronize game timer:
 
-When the game has begun, type in the chat "!start ##" where ## has
-to be replaced by the amount of seconds that have elapsed since the
-start of the game. I.e. "!start 20" when the game timer is at 00:20
-or "!start 120" when the game timer is at 02:00.
+   When the game has begun, type in the chat "!start ##" where ## has
+   to be replaced by the amount of seconds that have elapsed since the
+   start of the game. I.e. "!start 20" when the game timer is at 00:20
+   or "!start 120" when the game timer is at 02:00.
 
-To avoid glitches with ingame key bindings, you may sometimes need
-to press the enter button a few times. This should rarely occur anymore 
-though.
+   To avoid glitches with ingame key bindings, you may sometimes need
+   to press the enter button a few times. This should rarely occur anymore 
+   though.
 
-If you do not use this option, all times will be relative and the
-generated chat messages are of limited use.
+   If you do not use this option, all times will be relative and the
+   generated chat messages are of limited use.
 
 3. Type "!time" in the chat bar to see if the time is in sync with the
 game time.
@@ -99,7 +99,7 @@ Control keys:
 2. hotkeys.png and hotkeys.svg
 
 	Derived from http://commons.wikimedia.org/wiki/File:Numpad.svg
-	which was released to public domain by Oona Räisänen
+	which was released to public domain by Oona Rï¿½isï¿½nen
 	http://en.wikipedia.org/wiki/User:Mysid
 
 
