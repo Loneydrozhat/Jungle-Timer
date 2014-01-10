@@ -1,13 +1,13 @@
 # Jungle Timer
 
-This AutoHotkey macro is made for League Of Legends (http://www.leagueoflegends.com/)
+This AutoHotkey macro is made for [League Of Legends](http://www.leagueoflegends.com/)
 and provides ingame timers for the six most important neutral monsters which may
 be useful for jungling. This is a draft and a work in progress and naturally does
 not cater to everybody's needs.
 
 ## Installation and startup
 
-1. Have AutoHotkey installed, which can be found at http://www.autohotkey.com/
+1. Have [AutoHotkey](http://www.autohotkey.com/) installed, which can be found at http://www.autohotkey.com/
 
 2. Download the [Jungle Timer files](https://github.com/klovadis/Jungle-Timer/archive/master.zip) and extract those files anywhere.
 
@@ -22,7 +22,7 @@ not cater to everybody's needs.
 
 1. Run the script as mentioned above.
 
-2. Optional:
+2. Optional: Synchronize game timer:
 
 When the game has begun, type in the chat "!start ##" where ## has
 to be replaced by the amount of seconds that have elapsed since the
