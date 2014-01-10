@@ -1,14 +1,17 @@
 # Jungle Timer
 
+This AutoHotkey macro is made for League Of Legends (http://www.leagueoflegends.com/)
+and provides ingame timers for the six most important neutral monsters which may
+be useful for jungling. This is a draft and a work in progress and naturally does
+not cater to everybody's needs.
 
 ## Installation and startup
 
 1. Have AutoHotkey installed, which can be found at http://www.autohotkey.com/
 
-2. Download the Jungle Timer files *here* and extract those files anywhere.
+2. Download the [Jungle Timer files](https://github.com/klovadis/Jungle-Timer/archive/master.zip) and extract those files anywhere.
 
-3. In that folder, double-click on Jungle_Timer.ahk which will make AutoHotkey
-run the script.
+3. In that folder, double-click on **Jungle_Timer.ahk** which will make AutoHotkey run the script.
 
 4. To exit the script, either 
   - Press Numpad divide (/) hotkey
@@ -17,88 +20,75 @@ run the script.
 
 ## How to use
 
-1. Either run the script Jungle_Timer.ahk via AutoHotkey 
-   which can be found at http://www.autohotkey.com/ and
-   must then be installed first or launch the provided executable
-   Jungle_Timer.exe
+1. Run the script as mentioned above.
 
-2. Run this script with AutoHotkey (normally, you can just double-click
-   on the script file to start it.
+2. Optional:
 
-3. Optional:
+When the game has begun, type in the chat "!start ##" where ## has
+to be replaced by the amount of seconds that have elapsed since the
+start of the game. I.e. "!start 20" when the game timer is at 00:20
+or "!start 120" when the game timer is at 02:00.
 
-   When the game has begun, type in the chat "!start ##" where ## has
-   to be replaced by the amount of seconds that have elapsed since the
-   start of the game. I.e. "!start 20" when the game timer is at 00:20
-   or "!start 120" when the game timer is at 02:00.
+To avoid glitches with ingame key bindings, you may sometimes need
+to press the enter button a few times. This should rarely occur anymore 
+though.
 
-   To avoid glitches with ingame key bindings, you may sometimes need
-   to press the enter button a few times. This should rarely occur anymore 
-   though.
+If you do not use this option, all times will be relative and the
+generated chat messages are of limited use.
 
-   If you do not use this option, all times will be relative and the
-   generated chat messages are of limited use.
+3. Type "!time" in the chat bar to see if the time is in sync with the
+game time.
 
-4. Type "!time" in the chat bar to see if the time is in sync with the
-   game time.
+4. Press the numpad keys 1-6 to mark the time of a neutral monsters death
+or to retrieve the next spawn time as seen in the *hotkeys* section.
 
-5. Press the numpad keys 1-6 to mark the time of a neutral monsters death
-   or to retrieve the next spawn time.*
-   
-       Numpad 1: Own red buff
-       Numpad 2: Own blue buff
+5. Open the chat bar and press the *numpad zero (0)* key to display the latest
+generated message with exact timings.
 
-       Numpad 4: Enemy red buff
-       Numpad 5: Enemy blue buff
-
-       Numpad 3: Dragon
-       Numpad 6: Baron
-
-6. Open the chat bar and press the numpad zero key to display the latest
-   generated message with exact timings.
-
-       Numpad 0: Paste message into chat bar.
+  - Numpad 0: Paste message into chat bar.
 
 
-7. Press the numpad dot key to erase the previously created or selected
-   timer. For example if you press numpad 1 (red), then numpad 2 (blue)
-   followed by numpad dot will remove the blue buff timer.
+6. Press the numpad dot key to erase the previously created or selected
+timer. For example if you press numpad 1 (red), then numpad 2 (blue)
+followed by numpad dot will remove the blue buff timer.
 
-       Numpad dot (.): Erase previously selected timer. 
+    - Numpad dot (.): Erase previously selected timer. 
 
-8. Press the minus numpad key (-) to stop the game timer and subsequently
-   any further notifications. Alternatively you can type "!stop" in the chat.
-   You may restart the timer by using the !start command or by pressing any
-   timer buttons.
+7. Press the minus numpad key (-) to stop the game timer and subsequently
+any further notifications. Alternatively you can type "!stop" in the chat.
+You may restart the timer by using the !start command or by pressing any
+timer buttons.
 
-       Numpad minus (-): Halt the script.
-
-9. Stop the script execution by closing the AutoHotkey application in your 
-   task bar, by typing !exit or by pressing numpad division key.
-
-       Numpad divide (/): Exit the script.
+    - Numpad minus (-): Halt the script.
 
 ## Commands
 
-!start NN: Set the game timer to NN seconds.
-!stop: Stop all timers and notifications.
-!exit: Shutdown the script alltogether.
+Commands can be entered into the games chat bar and may be ended by either
+pressing *ENTER* (not recommended, it will clutter your allies screen) or **SPACE**.
+
+ - !start NN: Set the game timer to NN seconds.
+ - !stop: Stop all timers and notifications.
+ - !exit: Shutdown the script alltogether.
+ - !time: Retrieve current time.
+
 
 ## Hotkeys overview
 
-Numpad 1: Own red buff
-Numpad 2: Own blue buff
+![Alt text](https://github.com/klovadis/Jungle-Timer/blob/master/hotkeys/hotkeys.png?raw=true)
 
-Numpad 4: Enemy red buff
-Numpad 5: Enemy blue buff
+Buff timers:
+ - Numpad 1: Own red buff (5 minutes).
+ - Numpad 2: Own blue buff (5 minutes).
+ - Numpad 3: Dragon (6 minutes).
+ - Numpad 4: Enemy red buff (5 minutes).
+ - Numpad 5: Enemy blue buff (5 minutes).
+ - Numpad 6: Baron (7 minutes).
 
-Numpad 3: Dragon
-Numpad 6: Baron
-
-Numpad 0: Paste message into chat bar.
-Numpad dot (.): Erase previously selected timer. 
-Numpad minus (-): Stop all timers and notifications.
-Numpad divide (/): Shutdown the script alltogether.
+Control keys:
+ - Numpad 0: Paste message into chat bar.
+ - Numpad dot (.): Erase previously selected timer. 
+ - Numpad minus (-): Stop all timers and notifications.
+ - Numpad divide (/): Shutdown the script alltogether.
 
 ## Credits
 
