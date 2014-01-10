@@ -44,21 +44,17 @@ or to retrieve the next spawn time as seen in the *hotkeys* section.
 
 5. Open the chat bar and press the *numpad zero (0)* key to display the latest
 generated message with exact timings.
-
   - Numpad 0: Paste message into chat bar.
-
 
 6. Press the numpad dot key to erase the previously created or selected
 timer. For example if you press numpad 1 (red), then numpad 2 (blue)
 followed by numpad dot will remove the blue buff timer.
-
     - Numpad dot (.): Erase previously selected timer. 
 
 7. Press the minus numpad key (-) to stop the game timer and subsequently
 any further notifications. Alternatively you can type "!stop" in the chat.
 You may restart the timer by using the !start command or by pressing any
 timer buttons.
-
     - Numpad minus (-): Halt the script.
 
 ## Commands
@@ -94,17 +90,17 @@ Control keys:
 
 1. Audio files in /audio
 
-All audio files have been obtained using Amit Agarwal's
-text-to-speech tool found at http://ctrlq.org/listen/
-which in turn makes use of Google's text-to-speech API.
-Exact audio license is unclear at this point so don't
-use those audio files commercially.
+	All audio files have been obtained using Amit Agarwal's
+	text-to-speech tool found at http://ctrlq.org/listen/
+	which in turn makes use of Google's text-to-speech API.
+	Exact audio license is unclear at this point so don't
+	use those audio files commercially.
 
 2. hotkeys.png and hotkeys.svg
 
-Derived from http://commons.wikimedia.org/wiki/File:Numpad.svg
-which was released to public domain by Oona Räisänen
-http://en.wikipedia.org/wiki/User:Mysid
+	Derived from http://commons.wikimedia.org/wiki/File:Numpad.svg
+	which was released to public domain by Oona Räisänen
+	http://en.wikipedia.org/wiki/User:Mysid
 
 
 ## License (MIT)
