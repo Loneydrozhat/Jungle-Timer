@@ -10,7 +10,7 @@
 ; ABOUT
 ;
 ; This AutoHotkey macro is made for League Of Legends (http://www.leagueoflegends.com/)
-; and provides ingame timers for the six most importend neutral monsters which may
+; and provides ingame timers for the six most important neutral monsters which may
 ; be useful for jungling. This is a draft and a work in progress and naturally does
 ; not cater to everybody's needs.
 ;
